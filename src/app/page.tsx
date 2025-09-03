@@ -11,7 +11,7 @@ export default function Invitation() {
 
   return (
     <div
-      className="w-full md:w-1/2 mx-auto min-h-screen flex flex-col items-center justify-center relative px-6 border-2 border-black"
+      className="w-full md:w-1/2 mx-auto min-h-screen flex flex-col items-center justify-center relative px-6 border-2 border-black bg-white"
       style={{ minHeight: "100dvh" }} // ✅ mobile-friendly vh
     >
       {/* Background Watermark */}
