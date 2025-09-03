@@ -16,7 +16,7 @@ export default function Invitation() {
     >
       {/* Background Watermark */}
       <div
-        className="absolute inset-0 bg-center bg-contain bg-no-repeat opacity-10 pointer-events-none"
+        className="absolute inset-0 bg-center bg-contain bg-no-repeat opacity-30 pointer-events-none"
         style={{ backgroundImage: "url('/idcode.jpg')" }}
       ></div>
 
@@ -93,7 +93,7 @@ export default function Invitation() {
 
 
         <div className="mt-4 italic flex justify-end">
-  <p>
+  <p className="text-black">
     Designed by [web&IGlogo]{" "}
     <a
       href="https://idcode.ng"
