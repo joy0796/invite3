@@ -17,36 +17,31 @@ export default function Invitation() {
     >
       {/* Logo Section */}
       <div className="flex flex-col items-center mb-2">
-        <Image
-          src="/logo.png" // <-- replace with your logo file in /public
-          alt="Invitation Logo"
-          width={120}
-          height={120}
-          className="rounded-full shadow-md"
-        />
+        <div className="h-[100px] w-[100px] bg-white rounded-full border-6 border-green-800 text-black font-bold">
+          Event Logo
+        </div>
         <h1 className="mt-1 text-2xl font-bold text-gray-800 text-center">
           Invitation Verified For
         </h1>
         <h1 className="mt-1 text-lg font-bold text-yellow-500 text-center">
-          MR OLAMIDE RAHEEM
+          GUEST NAME
         </h1>
         <p className="text-gray-600 text-center mt-1">
-          Welcome as we celebrate the golden jubilee of
+          Welcome as we celebrate
         </p>
-        <h1 className="mt-1 text-2xl font-bold text-gray-800 text-center border-b-2 border-black">
-          LASBAT IYABODE AKINLEYE
+        <h1 className="mt-1 text-2xl font-bold text-yellow-500 text-center ">
+          CELEBRANT NAME
         </h1>
       </div>
 
       <div className="flex flex-col justify-start">
         <p className="text-gray-600 text-center mt-1">Date: 30th December 2025</p>
         <p className="text-gray-600 text-center mt-1">Time: 1.00pm</p>
-        <p className="text-gray-600 text-center mt-1">Sheba Event Center</p>
+        <h1 className="mt-1 text-lg font-bold text-yellow-500 text-center border-b-2 border-black">
+          EVENT CENTER AND ADDRESS
+        </h1>
         <p className="text-gray-600 text-center mt-1">
-          20 MObolaji Bank Anthony Way Maryland Lagos
-        </p>
-        <p className="text-gray-600 text-center mt-1">
-          Dresscode: Emerald & Mint Green
+          Dresscode: 
         </p>
       </div>
 
