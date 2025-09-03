@@ -14,11 +14,15 @@ export default function Invitation() {
     <div className="relative w-full min-h-screen flex items-center justify-center bg-gray-100">
       {/* Background Image */}
       <Image
-        src="/heroimg.jpeg" 
-        alt="Invitation Background"
-        fill
-        className="object-cover md:object-contain"
-      />
+  src="/heroimg.jpeg"
+  alt="Invitation Background"
+  fill
+  className="object-cover"
+  priority
+  sizes="100vw"
+  style={{ objectPosition: "top center" }} // focus on top instead of zooming middle
+/>
+
 
       {/* Button Section */}
       <div className="absolute bottom-5 flex flex-col items-center gap-1 w-full px-6">
