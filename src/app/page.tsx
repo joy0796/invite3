@@ -11,7 +11,10 @@ export default function Invitation() {
     "https://www.google.com/maps/search/?api=1&query=Sheba+Event+Centre,+20+Mobolaji+Bank+Anthony+Way,+Maryland+Lagos";
 
   return (
-    <div className="w-full md:w-1/2 mx-auto h-[100vh] flex flex-col items-center justify-center bg-gray-100 px-6 border-2 border-black">
+    <div
+      className="w-full md:w-1/2 mx-auto min-h-screen flex flex-col items-center justify-center bg-gray-100 px-6 border-2 border-black"
+      style={{ minHeight: "100dvh" }} // ✅ mobile-friendly vh
+    >
       {/* Logo Section */}
       <div className="flex flex-col items-center mb-2">
         <Image
@@ -36,15 +39,9 @@ export default function Invitation() {
       </div>
 
       <div className="flex flex-col justify-start">
-        <p className="text-gray-600 text-center mt-1">
-          Date: 30th December 2025
-        </p>
-        <p className="text-gray-600 text-center mt-1">
-          Time: 1.00pm
-        </p>
-        <p className="text-gray-600 text-center mt-1">
-          Sheba Event Center
-        </p>
+        <p className="text-gray-600 text-center mt-1">Date: 30th December 2025</p>
+        <p className="text-gray-600 text-center mt-1">Time: 1.00pm</p>
+        <p className="text-gray-600 text-center mt-1">Sheba Event Center</p>
         <p className="text-gray-600 text-center mt-1">
           20 MObolaji Bank Anthony Way Maryland Lagos
         </p>
@@ -54,7 +51,7 @@ export default function Invitation() {
       </div>
 
       {/* Button Section */}
-      <div className="flex flex-col items-center gap-2 w-full max-w-md">
+      <div className="flex flex-col items-center gap-2 w-full max-w-md mt-4">
         {/* Set Reminder */}
         <button
           onClick={() => router.push("/reminder")}
