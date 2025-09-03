@@ -14,7 +14,7 @@ export default function Invitation() {
     <div className="relative w-full min-h-screen flex items-center justify-center bg-gray-100">
       {/* Background Image */}
       <Image
-        src="/heroimg.jpeg" // put image in /public
+        src="/heroimg.jpeg" 
         alt="Invitation Background"
         fill
         className="object-cover md:object-contain"
