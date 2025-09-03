@@ -17,7 +17,7 @@ export default function Invitation() {
         src="/heroimg.jpeg" 
         alt="Invitation Background"
         fill
-        className="object-cover md:object-contain"
+        className="object-contain"
       />
 
       {/* Button Section */}
