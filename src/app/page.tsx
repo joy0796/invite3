@@ -17,7 +17,7 @@ export default function Invitation() {
     >
       {/* Logo Section */}
       <div className="flex flex-col items-center mb-2">
-        <div className="h-[100px] w-[100px] bg-white rounded-full border-6 border-green-800 text-black font-bold">
+        <div className="h-[100px] w-[100px] bg-white rounded-full border-6 border-green-800 text-black font-bold text-center pt-8">
           Event Logo
         </div>
         <h1 className="mt-1 text-2xl font-bold text-gray-800 text-center">
