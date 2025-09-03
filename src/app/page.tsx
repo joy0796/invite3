@@ -29,18 +29,18 @@ export default function Invitation() {
         <p className="text-gray-600 text-center mt-1">
           Welcome as we celebrate
         </p>
-        <h1 className="mt-1 text-2xl font-bold text-yellow-500 text-center ">
+        <h1 className="mt-1 text-2xl font-bold text-yellow-500 text-center border-b-2 border-black">
           CELEBRANT NAME
         </h1>
       </div>
 
       <div className="flex flex-col justify-start">
-        <p className="text-gray-600 text-center mt-1">Date: 30th December 2025</p>
-        <p className="text-gray-600 text-center mt-1">Time: 1.00pm</p>
-        <h1 className="mt-1 text-lg font-bold text-yellow-500 text-center border-b-2 border-black">
+        <p className="text-gray-600 text-center mt-1">Date: Event Date</p>
+        <p className="text-gray-600 text-center mt-1">Time: Event Time</p>
+        <h1 className="mt-1 text-lg font-bold text-yellow-500 text-center ">
           EVENT CENTER AND ADDRESS
         </h1>
-        <p className="text-gray-600 text-center mt-1">
+        <p className="text-gray-600 text-center mt-1 text-justify">
           Dresscode: 
         </p>
       </div>
@@ -73,7 +73,7 @@ export default function Invitation() {
 
         {/* RSVP */}
         <a
-          href="tel:07084917780"
+          href="tel:07031031944"
           className="w-32 bg-black text-white py-2 font-bold rounded-md shadow-lg text-center border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black transition"
         >
           RSVP
