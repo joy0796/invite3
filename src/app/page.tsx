@@ -21,7 +21,7 @@ export default function Invitation() {
       />
 
       {/* Button Section */}
-      <div className="absolute bottom-5 flex flex-col items-center gap-2 w-full px-6">
+      <div className="absolute bottom-5 flex flex-col items-center gap-1 w-full px-6">
         {/* Set Reminder */}
         <button
           onClick={() => router.push("/reminder")}
