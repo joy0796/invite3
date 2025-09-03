@@ -11,7 +11,7 @@ export default function Invitation() {
     "https://www.google.com/maps/search/?api=1&query=Sheba+Event+Centre,+20+Mobolaji+Bank+Anthony+Way,+Maryland+Lagos";
 
   return (
-    <div className="relative w-[95vw] mx-auto md:w-full min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="relative w-full min-h-screen flex items-center justify-center bg-gray-100">
       {/* Background Image */}
       <Image
         src="/heroimg.jpeg" 
