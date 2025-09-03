@@ -21,11 +21,11 @@ export default function Invitation() {
       />
 
       {/* Button Section */}
-      <div className="absolute bottom-0 flex flex-col items-center gap-[0.8px] w-full px-6">
+      <div className="absolute bottom-5 flex flex-col items-center gap-2 w-full px-6">
         {/* Set Reminder */}
         <button
           onClick={() => router.push("/reminder")}
-          className="w-full max-w-md bg-black text-white py-2 font-bold rounded-md shadow-lg border-2 border-yellow-500"
+          className="w-full max-w-md bg-black text-white py-3 font-bold rounded-md shadow-lg border-2 border-yellow-500"
         >
           SET REMINDER
         </button>
@@ -33,7 +33,7 @@ export default function Invitation() {
         {/* Venue Direction */}
         <button
           onClick={() => window.open(googleMapsUrl, "_blank")}
-          className="w-full max-w-md bg-black text-white py-2 font-bold rounded-md shadow-lg border-2 border-yellow-500"
+          className="w-full max-w-md bg-black text-white py-3 font-bold rounded-md shadow-lg border-2 border-yellow-500"
         >
           VENUE DIRECTION
         </button>
@@ -41,7 +41,7 @@ export default function Invitation() {
         {/* Order of Service */}
         <button
           onClick={() => router.push("/order-of-service")}
-          className="w-full max-w-md bg-black text-white py-2 font-bold rounded-md shadow-lg border-2 border-yellow-500"
+          className="w-full max-w-md bg-black text-white py-3 font-bold rounded-md shadow-lg border-2 border-yellow-500"
         >
           ORDER OF SERVICE
         </button>
@@ -49,7 +49,7 @@ export default function Invitation() {
         {/* RSVP */}
         <a
           href="tel:07084917780"
-          className="w-32 bg-black text-white py-2 md:py-1 font-bold rounded-md shadow-lg text-center border-2 border-yellow-500"
+          className="w-32 bg-black text-white py-3 font-bold rounded-md shadow-lg text-center border-2 border-yellow-500"
         >
           RSVP
         </a>
