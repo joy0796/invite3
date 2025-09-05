@@ -45,7 +45,7 @@ export default function Invitation() {
           <p className="text-gray-600 text-center mt-1">Date: Event Date</p>
           <p className="text-gray-600 text-center mt-1">Time: Event Time</p>
           <h1 className="mt-1 text-lg font-bold text-yellow-500 text-center ">
-            EVENT CENTER: ICC Abuja
+            EVENT CENTER AND ADDRESS
           </h1>
           <p className="text-gray-600 text-center mt-1 text-justify">
             Dresscode:
