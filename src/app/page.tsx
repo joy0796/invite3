@@ -7,12 +7,12 @@ export default function Invitation() {
 
   // Google Maps link for venue
   const googleMapsUrl =
-    "https://www.google.com/maps/search/?api=1&query=Sheba+Event+Centre,+20+Mobolaji+Bank+Anthony+Way,+Maryland+Lagos";
+    "https://www.google.com/maps/search/?api=1&query=International+Conference+Centre,+Abuja";
 
   return (
     <div
       className="w-full md:w-1/2 mx-auto min-h-screen flex flex-col items-center justify-center relative px-6 border-2 border-black bg-white"
-      style={{ minHeight: "100dvh" }} // ✅ mobile-friendly vh
+      style={{ minHeight: "100dvh" }} 
     >
       {/* Background Watermark */}
       <div
@@ -92,19 +92,24 @@ export default function Invitation() {
 </div>
 
 
-        <div className="mt-4 italic flex justify-end">
-  <p className="text-black">
-    Designed by [web&IGlogo]{" "}
+        <div className="mt-4 italic w-full flex justify-end">
+  <p className="text-black flex items-center gap-1">
+    Designed by
     <a
       href="https://idcode.ng"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-yellow-500 hover:underline"
+      className="hover:opacity-80"
     >
-      IDcode.ng
+      <img
+        src="/web.jpeg" 
+        alt="IDcode.ng"
+        className="h-5 inline-block"
+      />
     </a>
   </p>
 </div>
+
 
 
       </div>
